@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth bg-[#09090b] text-[#f4f3ef]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noir Barber Studio — Precisión, Estilo y Actitud</title>
+    <meta
+      name="description"
+      content="Noir Barber Studio. Experiencia de barbería premium, skin fades, cortes clásicos, diseño de barba y cuidado masculino de autor."
+    />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Noir Barber Studio — Precisión, Estilo y Actitud" />
+    <meta
+      property="og:description"
+      content="Cortes diseñados para definir tu estilo. Reserva tu cita online en Noir Barber Studio."
+    />
+    <meta property="og:site_name" content="Noir Barber Studio" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Noir Barber Studio — Precisión, Estilo y Actitud" />
+    <meta
+      name="twitter:description"
+      content="Cortes diseñados para definir tu estilo. Reserva tu cita online en Noir Barber Studio."
+    />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop" />
+
+    <!-- Google Fonts: Syne (Display) & Plus Jakarta Sans (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Schema.org JSON-LD Structured Data for Barbershop / Local Business -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BarberShop",
+        "name": "Noir Barber Studio",
+        "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop",
+        "description": "Una barbería moderna que combina cortes clásicos, tendencias contemporáneas y una experiencia premium de autor.",
+        "telephone": "+1-555-0199",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Dirección del cliente",
+          "addressLocality": "Ciudad",
+          "addressCountry": "ES"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "10:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "11:00",
+            "closes": "16:00"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Servicios de Barbería",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Skin Fade",
+                "description": "Fade realizado con precisión y acabado detallado."
+              },
+              "price": "15",
+              "priceCurrency": "USD"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Classic Cut",
+                "description": "Corte clásico personalizado."
+              },
+              "price": "12",
+              "priceCurrency": "USD"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "The Noir Experience",
+                "description": "Corte, barba, lavado y acabado premium."
+              },
+              "price": "30",
+              "priceCurrency": "USD"
+            }
+          ]
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#09090b] text-[#f4f3ef] antialiased selection:bg-[#c5a059] selection:text-[#09090b]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

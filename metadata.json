@@ -1,0 +1,6 @@
+{
+  "name": "Noir Barber Studio",
+  "description": "Sitio web oficial y demostración premium para Noir Barber Studio: barbería de autor, skin fades, diseño de barba y cuidado masculino de alta gama.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
